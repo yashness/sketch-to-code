@@ -1,164 +1,227 @@
-* {
+*
+{
     margin: 0;
     padding: 0;
 }
 
-body {
+body
+{
     width: 1240px;
     margin: 0 auto;
 }
 
-header {
+header
+{
     height: 80px;
 }
 
-header > .navbar {
+header > .navbar
+{
     height: 60px;
     padding: 10px 0;
 }
 
-header > .navbar > .nav {
-    height: 100%;
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
+header > .navbar > .nav
+{
     display: grid;
+
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+
     grid-template-columns: auto auto auto auto auto;
 }
 
-header > .navbar > .nav > .menu {
+header > .navbar > .nav > .menu
+{
     line-height: 60px;
+
     height: 60px;
 }
 
-.menu > span {
+.menu > span
+{
     font-family: ComicSansMS;
     font-size: 20px;
-    color: #9B9B9B;
+
+    color: #9b9b9b;
 }
 
-.hero {
+.hero
+{
+    display: grid;
+
+    height: 760px;
+    margin-top: 10px;
+
     background-image: url('../img/hero-image-2.png');
     background-size: cover;
-    height: 760px;
-    display: grid;
+
     grid-template-columns: 180px auto 180px;
-    margin-top: 10px;
 }
 
-.sliderNavButtons {
+.sliderNavButtons
+{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.mainHeroSection {
+.mainHeroSection
+{
     margin-top: 270px;
+
     text-align: center;
 }
 
-.heroDescription > .subTitle {
+.heroDescription > .subTitle
+{
     font-family: ComicSansMS-Bold;
     font-size: 23px;
-    color: #FFFFFF;
+
     letter-spacing: 4.2px;
+
+    color: #fff;
 }
 
-.heroDescription > .heroTitle {
+.heroDescription > .heroTitle
+{
     font-family: ComicSansMS-Bold;
     font-size: 90px;
-    color: #FFFFFF;
+
+    color: #fff;
 }
 
-.actionButton {
-    background-color: #F5A623;
-    padding: 13px;
-    border: none;
+.actionButton
+{
     font-family: ComicSansMS-Bold;
     font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 2.56px;
-    text-align: center;
+
+    padding: 13px;
+
     cursor: pointer;
+    text-align: center;
+    letter-spacing: 2.56px;
+
+    color: #fff;
+    border: none;
+    background-color: #f5a623;
 }
 
-.blogSection {
+.blogSection
+{
     height: 550px;
 }
 
-.blogSectionContainer {
-    margin: 115px auto;
+.blogSectionContainer
+{
     display: grid;
+
+    margin: 115px auto;
+
     grid-template-columns: 50% 50%;
 }
 
-.textSection > .blogQuote {
+.textSection > .blogQuote
+{
     font-family: ComicSansMS-Bold;
     font-size: 23px;
-    color: #4A4A4A;
+
     letter-spacing: 4.2px;
+
+    color: #4a4a4a;
 }
 
-.textSection > .blogTitle {
+.textSection > .blogTitle
+{
     font-family: ComicSansMS-Bold;
     font-size: 48px;
-    color: #4A4A4A;
+
+    margin-top: 40px;
+
     letter-spacing: 2.56px;
-    margin-top:40px;
+
+    color: #4a4a4a;
 }
 
-.textSection {
+.textSection
+{
     width: 465px;
 }
-.textSection > .blogDescription {
+.textSection > .blogDescription
+{
     font-family: ComicSansMS-Bold;
     font-size: 15px;
-    color: #9B9B9B;
-    letter-spacing: 0.8px;
+
     margin-top: 40px;
+
+    letter-spacing: .8px;
+
+    color: #9b9b9b;
 }
 
 
 
-.textSection > .readMore {
+.textSection > .readMore
+{
     margin-top: 40px;
 }
 
-.blogSectionContainer > .rightSection > .rightImage > img {
+.blogSectionContainer > .rightSection > .rightImage > img
+{
     float: right;
 }
-.quoteSection {
+.quoteSection
+{
     height: 325px;
+
     background-image: url('../img/quote-image.png');
     background-size: cover;
 }
 
-.quoteSectionContainer {
+.quoteSectionContainer
+{
     padding-top: 61px;
+
     text-align: center;
 }
 
-.quoteSectionContainer > .bigQuote {
-font-family: ComicSansMS-Bold;
-font-size: 48px;
-color: #FFFFFF;
-letter-spacing: 4.2px;
+.quoteSectionContainer > .bigQuote
+{
+    font-family: ComicSansMS-Bold;
+    font-size: 48px;
+
+    letter-spacing: 4.2px;
+
+    color: #fff;
 }
 
-.quoteSectionContainer > .authorImage {
+.quoteSectionContainer > .authorImage
+{
     margin-top: 36px;
 }
 
-.quoteSectionContainer > .authorName {
+.quoteSectionContainer > .authorName
+{
     font-family: ComicSansMS-Bold;
     font-size: 21px;
-    color: #FFFFFF;
-    letter-spacing: 9.54px;
+
     margin-top: 10px;
+
+    letter-spacing: 9.54px;
+
+    color: #fff;
 }
 
-button:active, button:focus, a:active, a:focus {
-  outline: 0;
-  border: none;
-  -moz-outline-style: none;
+button:active,
+button:focus,
+a:active,
+a:focus
+{
+    border: none;
+    outline: 0;
+
+    -moz-outline-style: none;
 }
